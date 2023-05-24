@@ -34,6 +34,9 @@ public class CustomerUsersDetailsService implements UserDetailsService {
     }
 
     public com.wvb.cafe.model.User getUserDetail(){
+
+//        com.wvb.cafe.model.User user=userDetail;
+//        user.setPassword(null);
         return userDetail;
     }
 
